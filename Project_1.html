@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TO DO LIST</title>
+        <link rel = "stylesheet" href = "Project_1.css">
+        <body>
+            <div class = "Text">
+                <h1>TO DO LIST</h1>
+                <input type = "text" placeholder = "Enter your task" id = "newTask">
+                <button onclick = "addTask()"> Submit Task</button>
+                <ul id = "taskList" class = "toggle">
+                    <li>Default task
+                        <button onclick = "deleteTask(this)">Delete</button>
+                        <button onclick = "MarkDone(this)" class = "btn1">Mark as Done</button>
+                    </li>
+                </ul>
+            </div>
+            <script src = "Project_1.js"></script>
+        </body>
+    </head>
+</html>

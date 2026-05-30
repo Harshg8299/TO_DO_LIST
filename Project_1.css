@@ -1,0 +1,12 @@
+/* .btn1
+{
+    background-color : yellow;
+} */
+.toggleClass
+{
+    text-decoration: line-through;
+}
+.markRed
+{
+    color: rgb(139, 16, 16);
+}
